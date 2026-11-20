@@ -1,0 +1,399 @@
+{
+  "title": "Zero Theory — Living Research Atlas",
+  "version": "R2C15_V15_R1",
+  "source": "https://doi.org/10.5281/zenodo.24383891",
+  "conditional_results": [
+    {
+      "id": "result-1",
+      "title": "A reference wave fixes its own tick",
+      "type": "Foundations · Definition → exact identity",
+      "formula": "Γ_F = λ_F · T_F = Γ_F/c · ω_F T_F = 2π",
+      "premises": "Given. Take Γ_F as the wavelength of the declared reference wave and its propagation speed as c in the owning frame F.",
+      "result": "One reference cycle defines a duration and a 2π phase advance. This provides the unit dictionary used by Local and H1 comparisons."
+    },
+    {
+      "id": "result-2",
+      "title": "One arrival can give different responses",
+      "type": "Foundations · Exact conditional",
+      "formula": "Rᵢ⁽¹⁾ = γwᵢ · R₃/R₁ = 4π − 1",
+      "premises": "Given. Use one normalized arrival and the declared linear receiver rule with common γ and layer weights w₁=1 and w₃=4π−1.",
+      "result": "The L3 receiver response is 4π−1 times L1 for the same arrival. The event count stays one."
+    },
+    {
+      "id": "result-3",
+      "title": "Six cycles organize into opposite pairs",
+      "type": "Electron · Exact conditional",
+      "formula": "Δφ = 2π/6 = 60°",
+      "premises": "Given. Place six equal consecutive cycles of one continuous loop field on the declared closed path with uniform phase progression.",
+      "result": "There are six equally spaced phase cells and three opposite phase pairs. Mapping phase angle to physical spatial angle takes its own step."
+    },
+    {
+      "id": "result-4",
+      "title": "The four-layer construction closes at 2,830",
+      "type": "Electron · Exact conditional",
+      "formula": "2827.103576… → 2828 + 2 = 2830",
+      "premises": "Given. Apply six-channel saturation, the registered injection rule, and even active closure, then restore the two seed units.",
+      "result": "The same β₆-derived x₂₁ also enters the L1/L2 binary-depth route. The two results share upstream geometry. 2,830 is a construction count."
+    },
+    {
+      "id": "result-5",
+      "title": "Equal increments yield the L1 half-action",
+      "type": "Electron · Exact conditional",
+      "formula": "q = 1 → θ = 45° → η = 1/(1+q²) = ½",
+      "premises": "Given. Map equal axial and tangential increments to the same attached helical mode. Use that mode’s turn clock in the action ratio.",
+      "result": "With the separate normalization U_attached=ℏω_turn, the attached-mode value |J_z,L1| is ℏ/2. Identifying one Local reference cycle with one midline turn and axial advance Γ_L instead gives q=4π."
+    },
+    {
+      "id": "result-6",
+      "title": "Pair sums and full-field angular momentum",
+      "type": "Electron · Exact conditional",
+      "formula": "C_signed = 0 · Σ𝓛ᵢ = 0 under opposite pair vectors",
+      "premises": "Given. Use the signed structural capacities and, separately, equal and opposite layer angular-momentum vectors in the same axis and origin.",
+      "result": "The layer vectors cancel. The full integral vanishes under odd symmetry of the complete field-plus-source density on an invariant domain. The quantum readout has its own bridge."
+    },
+    {
+      "id": "result-7",
+      "title": "Structure weights fix relative pair coefficients",
+      "type": "Proton and mass · Exact conditional",
+      "formula": "qₚ/qₑ = (4π−1)(4π)² ≈ 1826.488 · Kₑₚ² = KₑₑKₚₚ",
+      "premises": "Given. Use wₚ/wₑ=4π−1, the declared rate-magnitude ratio |ωₑ|/|ωₚ|=(4π)², qᵢ∝wᵢ/|ωᵢ|, and one common κ in Kᵢⱼ=κqᵢqⱼ.",
+      "result": "The relative coefficients share their capacity and cadence inputs. The result is a model coefficient for the comparison geometry. The mass readout requires a measurement map."
+    },
+    {
+      "id": "result-8",
+      "title": "Integer closure and the geometric orbit ladder",
+      "type": "Hydrogen · Exact conditional",
+      "formula": "∮ dφ = 2πn · C_Hₙ = n² C_H₁",
+      "premises": "Given. Use a closed phase return. On the registered geometric branch take n segments and scale each segment’s wavelength linearly with n.",
+      "result": "The integer winding restricts closed returns. Multiplying the two factors of n gives the circumference ladder in this branch."
+    },
+    {
+      "id": "result-9",
+      "title": "Hydrogen ionization gives a velocity comparator",
+      "type": "Hydrogen · Empirical-input comparator",
+      "formula": "R_Eion = c√(μ_H/(2E_ion)) = 137.0352568006…",
+      "premises": "Given. Use the measured hydrogen ionization energy, reduced mass and the declared classical energy-to-orbit comparator.",
+      "result": "The audited reciprocal-alpha comparator differs from its reference by −5.4167 ppm. The energy input and observational interpretation are visible in the connected evidence record."
+    },
+    {
+      "id": "result-10",
+      "title": "A two-quadrature clock yields a square-root recurrence",
+      "type": "Clocks and observers · Exact conditional",
+      "formula": "ω/ω₀ = √[(1−β)(1+β)] = √(1−β²)",
+      "premises": "Given. Use a conservative bound oscillator with the two conjugate quadratic sectors independently renormalized by the stated opposed factors.",
+      "result": "The recurrence factor follows from the oscillator eigenfrequency. The material assignment to these sectors remains a distinct question."
+    },
+    {
+      "id": "result-11",
+      "title": "A direct crest-spacing readout can be half the path spacing",
+      "type": "Clocks and observers · Exact conditional",
+      "formula": "λ_direct = r_ang λ_path · r_ang = ½",
+      "premises": "Given. Use the observer-owned direct-projection branch and assign the angular readout coefficient r_ang=½.",
+      "result": "The direct spacing is half the path spacing. The bridge from r_ang to operational v/c has a separate shared-coordinate requirement. Standard SR supplies the chronometric comparator."
+    },
+    {
+      "id": "result-12",
+      "title": "An effective joint capture model yields the singlet table",
+      "type": "Bell · Effective-model consequence",
+      "formula": "pₛₜ=(1−st cos(a−b))/4 · |S|=2√2",
+      "premises": "Given. Use the declared antisymmetric joint amplitude, a shared half-angle basis, uniform absorption and competing first-event hazards.",
+      "result": "The table follows within that detector model. The joint input already carries the decisive correlation structure. The no-signalling test also needs absolute singles, nulls and timestamp distributions."
+    }
+  ],
+  "understanding_knots": [
+    {
+      "id": "ZT-UK-V15-BELL-EFFECTIVE-TO-PHYSICAL-001",
+      "title": "Antisymmetric signed-work source, composite detector model and no-signalling boundary",
+      "question": "Antisymmetric signed-work source, composite detector model and no-signalling boundary",
+      "scope": "Bell joint amplitude contains decisive target-equivalent correlation data; no independent Bell confirmation from matching table."
+    },
+    {
+      "id": "ZT-UK-SUN-MW-IG-OBSERVATIONAL-LEDGER-001",
+      "title": "Atlas v3 outer frame, immediate-parent ledger and q-translation boundary",
+      "question": "What has Atlas v3 measured/reconstructed and what cannot yet be called q?",
+      "scope": "The outer estimator does not use the historical midpoint or Zero target."
+    },
+    {
+      "id": "ZT-UK-ATLAS-GRAVITY-H1-L3-ENVIRONMENT-001",
+      "title": "Atlas/gravity/H1/L3 environment ownership",
+      "question": "How must the Earth environment be partitioned before a hydrogen prediction?",
+      "scope": "Duplicate sources collapsed and synthetic/standard inputs do not validate Zero-specific physics."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-BLIND-LOCAL-ENERGY-EQUIVALENT-PROVENANCE-001",
+      "title": "Blind construction to exact local-electron energy-equivalent provenance boundary",
+      "question": "What is fixed before the local-electron comparator enters, and what exact energy-equivalent relation is obtained after the declared local frame hook is introduced?",
+      "scope": "Blind upstream construction remains target-firewalled. The construction branch and CURRENT binary-depth coordinate share decisive beta6/x21 ancestry, so their numerical relationship is information-dependent and is not counted as an independent confirmation. The downstream local energy-equivalent comparator is explicit and remains behind its physical-map bridge."
+    },
+    {
+      "id": "ZT-UK-PROTON-MIRROR-PHASE-INERTIA-BLIND-001",
+      "title": "Blind proton mirror/helical phase-inertia candidate and physical-mass stopline",
+      "question": "What target-blind proton/electron structural readout follows from the resumed L3 mirror branch and 45-degree helical geometry, and what exact physics still blocks identification with measured mass?",
+      "scope": "NOT INDEPENDENT: both successful routes share decisive 4*pi / 4*pi-1 / mirror-rate / L3-frame assumptions."
+    },
+    {
+      "id": "ZT-UK-SINGLE-ARRIVAL-RESPONSE-001",
+      "title": "Capacity response, receiver window and event-count separation",
+      "question": "How does one normalized arrival produce a capacity-weighted response without becoming multiple events?",
+      "scope": "The 4*pi-1 intensity is the capacity realization, not a second factor."
+    },
+    {
+      "id": "ZT-UK-CLEANROOM-CARRIER-MATERIAL-RESPONSE-001",
+      "title": "Clean-room carrier phase-bond: material geometry, q(beta), and dynamic relaxation",
+      "question": "Can material response to a candidate carrier be derived without importing Lorentz contraction or fixing a transverse dimension?",
+      "scope": "Clean-room input firewall excludes prior Lorentz-contraction/radial-accommodation branches and target observables."
+    },
+    {
+      "id": "ZT-UK-COMPLETE-R-K-TSPR-CLOSURE-STELLAR-001",
+      "title": "Complete R_H–K_ch–TSPR closure and stellar comparison",
+      "question": "Can all three declared chronometric components be retained in one target-blind closure, compared with standard and null controls, without inventing a spectral law?",
+      "scope": "The equality views share beta and bridge assumptions; S2 rows overlap and S38 dependent rows are not independent. Numerical improvement is descriptive only."
+    },
+    {
+      "id": "ZT-UK-PROTON-RECIPROCAL-ANGULAR-REST-001",
+      "title": "Conditional count-rest and rate-rest reciprocal scaling",
+      "question": "Does the conditional reciprocal rest factor have an exact representation in the CURRENT inverted middle rate pair?",
+      "scope": "Not independent; C=4pi-1 and N=6 are shared inputs."
+    },
+    {
+      "id": "ZT-UK-COSMO-OBSERVER-SCALE-IDENTIFICATION-001",
+      "title": "Cosmological observer-scale, matter-gravity coupling, and dark-sector identification firewall",
+      "question": "After common-scale cancellation, what non-universal physical coupling could generate a cosmological observable that is not merely a re-representation?",
+      "scope": "No cosmological target is fitted in the current no-go/firewall stage. g(z), kappa_i and chi_i are not inferred from data."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-G1-RATE-OWNERSHIP-001",
+      "title": "Electron geometry, frame-aware rates, G1 Maxwell and laboratory readout stoplines",
+      "question": "How does the current L1/L4 geometry connect to frame-owned rates, G1 Maxwell simulation, and ultimately laboratory response without mixing coordinate hooks, local clocks or normalized solver rates?",
+      "scope": "Compiler/G1 diagnostics share project scaffolds and are not independent empirical evidence."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-L21-ZITTER-CHECKPOINT-001",
+      "title": "Electron L1/L2 internal-clock derivation and Dirac/Zitterbewegung comparator quarantine",
+      "question": "Can a physical electron clock be derived from the L2-vs-L1 recurrence without target tuning, and only afterward be mapped to a declared Dirac/Zitterbewegung observable?",
+      "scope": "TARGET QUARANTINED: v0.27 inverse-sign attention was post hoc and remains negative-control only. v0.28 forbids use of f_Z or measured electron mass upstream of the internal-clock derivation."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-NONRIGID-SPIN-POINTLIKE-001",
+      "title": "Electron non-rigid spin origin and point-like external-readout route",
+      "question": "Can an extended non-rigid electron derive its internal angular momentum, quantum spin readout, and point-like scattering appearance without rigid-body superluminal motion or target fitting?",
+      "scope": "No measured spin, g, radius, compositeness/scattering target is allowed to choose the internal law. Current stage is a connected research route only."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-WAVE-KNOT-PAIRWISE-MASS-V051-001",
+      "title": "Electron wave-knot ontology to pairwise material mass readout",
+      "question": "What relative ee/ep/pp coefficient law is now closed, and which genuinely deeper field/force questions remain separate?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-ELECTRON-TO-GALACTIC-JUNCTION-CLOSURE-001",
+      "title": "Electron-to-Galactic nested junction closure: exact normalization spine and open physical universality",
+      "question": "Can the exact one-cycle-equivalent normalization seen in Local/L1/L2 be interpreted as a physical immediate-parent junction event and, if so, compose through material/terrestrial/Solar-system parents to a Galactocentric outer layer?",
+      "scope": "The multiscale unity reuses the same frame-normalization identity, so repeated ones across scales would not be independent evidence unless physical junction implementations are independently derived and tested."
+    },
+    {
+      "id": "ZT-UK-EXTERNAL-CARRIER-IDENTIFICATION-GAP-001",
+      "title": "External carrier, invariant-signal construction, clock/readout and observational firewalls",
+      "question": "What is actually established by the train–rope carrier audit, and what still blocks a physical EM carrier test?",
+      "scope": "No positive carrier evidence is registered. The current observational stages are negative controls / identifiability firewalls."
+    },
+    {
+      "id": "ZT-UK-V15-FOURLAYER-SPIN-CLAIM-FLOOR-001",
+      "title": "Four-layer signed-pair cancellation versus physical total J",
+      "question": "Four-layer signed-pair cancellation versus physical total J",
+      "scope": "Bell joint amplitude contains decisive target-equivalent correlation data; no independent Bell confirmation from matching table."
+    },
+    {
+      "id": "ZT-UK-ZERO-REBASE-OWNERSHIP-001",
+      "title": "Fundamental Zero, Oort, Local and change-of-basis ownership",
+      "question": "How do the fundamental Zero, Oort and Local owners differ after the rebase?",
+      "scope": "Author definitions plus exact consequences."
+    },
+    {
+      "id": "ZT-UK-H1-INDEPENDENT-ACCESS-AND-GEOMETRIC-ORBIT-LADDER-001",
+      "title": "H1 supplier lanes, geometric orbit ladder and non-reopening bridge routing",
+      "question": "How is H1 supplied without target leakage, how are higher orbit ratios derived, and which residual bridges genuinely remain?",
+      "scope": "The three lanes have different decisive inputs and must not be counted as independent confirmations of one claim."
+    },
+    {
+      "id": "ZT-UK-H1-LOCAL-BOUNDARY-IONIZATION-001",
+      "title": "H1/Local equivalent projection and high-n asymptotic limitation",
+      "question": "What exactly connects H1, Gam_L, 17.099 km and the continuum asymptote after the v0.53 independence correction?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-H16-LOCKING-READOUT-GAP-001",
+      "title": "H16 locking/readout/gap firewall",
+      "question": "Does mechanical locking or field darkness imply clock shutdown?",
+      "scope": "Duplicate sources collapsed and synthetic/standard inputs do not validate Zero-specific physics."
+    },
+    {
+      "id": "ZT-UK-H1-INTEGER-CLOSURE-NONREOPENING-001",
+      "title": "Integer winding, conditional selection, n-squared geometry, and microscopic-upgrade separation",
+      "question": "Why is completed closure integer and why does deeper stiffness not reopen it?",
+      "scope": "One connected conditional derivation; no duplicate confirmation count."
+    },
+    {
+      "id": "ZT-UK-H1-FOUR-CLOCK-MINIMUM-FRAME-BOHR-DIAGNOSTIC-001",
+      "title": "Internal H1 clocks versus physical Bohr-H1 length-cadence boundary",
+      "question": "How are internal bound/reference/self clocks separated from the physical Bohr-H1 frame, and what target-independent map is still missing?",
+      "scope": "TARGET-DEPENDENT EXACT DIAGNOSTIC. A cannot validate a prediction until derived without Bohr/alpha-equivalent information."
+    },
+    {
+      "id": "ZT-UK-INTERNAL-RATE-WAVE-RESOLVABILITY-001",
+      "title": "Internal rate, free-wave map, Planck anchor and observer-resolvability stopline",
+      "question": "May internal turns-per-Tick rates be read directly as complete free-wave angular frequencies?",
+      "scope": "Negative control, not a positive evidence claim."
+    },
+    {
+      "id": "ZT-UK-INVERSE-ACTION-PROFILE-ORIGIN-001",
+      "title": "Inverse-action certificate versus physical origin",
+      "question": "What has the inverse compensator proved and what has it not proved?",
+      "scope": "Duplicate sources collapsed and synthetic/standard inputs do not validate Zero-specific physics."
+    },
+    {
+      "id": "ZT-UK-L1-L3-PAIRWISE-PHASE-GRAVITY-001",
+      "title": "L1/L3 pairwise phase interaction to short-range kernel",
+      "question": "What is geometrically established and what blocks a physical pairwise force?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-L3-OFFAXIS-OBSERVER-READOUT-001",
+      "title": "L3 off-axis observer/readout ownership",
+      "question": "Which geometry yields a signed physical observer channel?",
+      "scope": "Duplicate sources collapsed and synthetic/standard inputs do not validate Zero-specific physics."
+    },
+    {
+      "id": "ZT-UK-HOST-FRAME-ELECTRON-CADENCE-OWNERSHIP-001",
+      "title": "Length-based Local/physical-H1 host cadence and internal-H1 ownership firewall",
+      "question": "How are Local-host, physical-H1-host, internal bound/reference and hosted-electron cadences kept owner-qualified, and which target-independent translation bridges remain open?",
+      "scope": "The length-based physical-H1 standard and its A comparator use the declared Bohr circumference input. Internal ZT arithmetic is exact-conditionally separate; no independent alpha, spectrum or physical internal-to-H1 validation is implied."
+    },
+    {
+      "id": "ZT-UK-LOCAL-EM-SIGNED-RECIPROCAL-MIRROR-001",
+      "title": "Local EM transition interface with signed reciprocal electron–proton mirror geometry",
+      "question": "How do the revised Gam_L interface meaning, Local signed L3 zero-crossing and reciprocal electron/proton rate branches form one connected CURRENT view without promoting the microscopic interface law?",
+      "scope": "No independent evidence is created by repeated 4*pi-family identities; shared decisive inputs are explicitly dependent."
+    },
+    {
+      "id": "ZT-UK-HYDROGEN-H1-L3-LOCAL-ARRIVAL-CLOCK-001",
+      "title": "Local H1/L3 arrival residual versus absolute Zero-ledger H1 placement",
+      "question": "Why may a local Doppler-like arrival residue survive circumference/tick compensation, and why is this not the absolute Zero-ledger Bohr map?",
+      "scope": "Target-blind with respect to HFS, but dependent on a standard reduced-mass Bohr cadence for conversion to hertz; therefore independent numerical candidate, not complete independent prediction."
+    },
+    {
+      "id": "ZT-UK-LOCAL-PROJECTION-OWNER-BOHR-ATLAS-001",
+      "title": "Local projection owner correction and Bohr diagnostic atlas",
+      "question": "Which owner holds 17.099 km, what are the valid one-step projections, and what does n_eq mean?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-MATERIAL-CLOCK-TWO-QUADRATURE-001",
+      "title": "Lorentz-free material-clock selection: two-way underdetermination and canonical two-quadrature candidate",
+      "question": "Can the same-event opposed phase-slip channels determine a material-clock rate without importing Lorentz proper time, physical contraction, or a target-fitted mean?",
+      "scope": "Input firewall excludes gamma, Lorentz proper time, physical Lorentz contraction and measured time-dilation targets. The square-root output is not independent evidence because the C2 architecture is a model assumption and shares 1±beta phase inputs with the race protocol."
+    },
+    {
+      "id": "ZT-UK-MACRO-FRAME-LADDER-H1-MIRROR-CANDIDATE-001",
+      "title": "Macro Zero/intergalactic/Milky-Way ladder and H1 mirror analogy",
+      "question": "Can the user-declared inverse macro cadence and intergalactic midpoint provide a testable structural basis for the square architecture without conflating geometric rotation, q cadence or spectral readout?",
+      "scope": "q_IG and the square identity are definitionally dependent in v0.41. S2/S38 residual results are unchanged and cannot validate this ladder until a frozen bridge uses it prospectively."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-MASS-CHANNEL-COMPETITION-001",
+      "title": "Material-observer reference and L1/L2 competing mass-readout channels",
+      "question": "How can the same electron structure produce an observer-owned relational mass readout when L1/L2 accessibility may compete with distance/coupling and the material observer reference may itself participate physically?",
+      "scope": "No measured electron mass is used upstream; this checkpoint is semantic/formalization work, not an empirical success."
+    },
+    {
+      "id": "ZT-UK-H1-NESTED-MIRROR-ATLAS-TRANSFER-001",
+      "title": "Nested H1 mirror separated from linear owner-aware Atlas-to-electron transfer",
+      "question": "How is the intrinsic H1 mirror hypothesis kept separate from the exact linear object/Earth Local-electron scaling, and what maps remain missing before a spectral prediction?",
+      "scope": "The linear ratio is exact conditional bookkeeping. The mirror identity is a separate assumed construction. Neither supplies independent spectral evidence."
+    },
+    {
+      "id": "ZT-UK-ZERO-LOCAL-ORBIT-L1-ALPHA-001",
+      "title": "Planck/Local/Zero/H1 bound-L1 connection-repair route for a blind alpha audit",
+      "question": "Given the now-frozen target-independent H1 Zero-ledger square-rate output, can its physical origin and observable translation be established before a downstream alpha/137 comparison?",
+      "scope": "Alpha and hydrogen-time branches share decisive H1/orbit/L1 upstream information. Negative-control identities involving alpha or repeated 4*pi factors are not independent evidence."
+    },
+    {
+      "id": "ZT-UK-PROTON-RESEARCH-TRAIL-PARKED-001",
+      "title": "Proton reconstruction research trail and parked return point",
+      "question": "What was actually tested in the proton P1/P2 and follow-on reconstruction, what survives CURRENT correction, what failed/superseded, and exactly where should work resume without redoing or over-deepening the branch?",
+      "scope": "Historical P1/P2 numerical products are mutually dependent on one toy scaffold; repeated internal identities are not independent empirical evidence."
+    },
+    {
+      "id": "ZT-UK-V15-REFERENCE-HELIX-Q-CEILING-001",
+      "title": "Reference wave-owned L1 pitch and conditional half-action",
+      "question": "Reference wave-owned L1 pitch and conditional half-action",
+      "scope": "Bell joint amplitude contains decisive target-equivalent correlation data; no independent Bell confirmation from matching table."
+    },
+    {
+      "id": "ZT-UK-RELATIVITY-OBSERVER-BUBBLE-TIME-SINK-001",
+      "title": "Relativity accepted -> observer bubble -> active Time-Sink -> conditional direct projection",
+      "question": "How can Zero Theory accept relativity without treating the Lorentz factor as the unique ontology, and where does the conditional 50 percent readout belong?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-RELATIVITY-CHRONOMETRIC-HYDROGEN-S2-001",
+      "title": "Relativity base to recovered chronometric/hydrogen S2 comparator",
+      "question": "How did the project obtain a near-200 km/s S2 number without replacing its piecewise code by direct Schwarzschild-plus-SR?",
+      "scope": "Numerical consistency is real, but speed is empirical, comparator fitted, and K-to-line map open."
+    },
+    {
+      "id": "ZT-UK-BETA6-CONSTRUCTION-ANGULAR-001",
+      "title": "Shared beta6/x21 ledger: six saturation, blind construction and L1/L2 binary depth",
+      "question": "What exact common algebraic ancestry connects the blind construction-count branch to the CURRENT L1/L2 binary-depth coordinate, without inventing an absolute angular scaffold?",
+      "scope": "DEPENDENT shared ancestry; construction and binary-depth outputs share decisive beta6/x21 information."
+    },
+    {
+      "id": "ZT-UK-ELECTRON-FRAME-CADENCE-READOUT-001",
+      "title": "Target-blind electron frame-unit chain with exact frame normalization and open physical cadence readout",
+      "question": "How far can Zero→Local→L1→candidate-L2 be carried with exact frame normalization but without inserting the measured electron target, and where does physical observer readout remain open?",
+      "scope": "TARGET FIREWALL: no measured electron mass/energy is used to select x21, g21, or the algebraic cadence closure. Physical provenance of the provisional Local reference remains an explicit open issue."
+    },
+    {
+      "id": "ZT-UK-RELATIONAL-SELF-SCALE-COSMIC-PARITY-001",
+      "title": "Two-ring observer paradox to self-Tick ownership and cosmic Zero-scale parity",
+      "question": "How can reciprocal pairwise smaller-readouts coexist without implying contradictory Zero-relative scales, and what remains to decide equality for opposite cosmic orientations?",
+      "scope": "The pair simulations are diagnostic consequences of imposed sign/strength/range assumptions and are not independent evidence for the structural channel or cosmic symmetry."
+    },
+    {
+      "id": "ZT-UK-H1-CORRECTED-ALPHA-EQUIVALENT-001",
+      "title": "Universal orbit/self law and corrected ionization alpha comparator",
+      "question": "What does the corrected 137-class quantity mean and what remains upstream?",
+      "scope": "One ionization-anchored lane; no duplicate confirmation count."
+    },
+    {
+      "id": "ZT-UK-V058-MECHANISM-CONNECTIONS-001",
+      "title": "Wave, spin, clock and local locking",
+      "question": "",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-ZERO-RECIPROCAL-PROJECTION-OORT-ANALOGY-001",
+      "title": "Zero reciprocal projection, Oort range overlap and limited solar analogy",
+      "question": "Does the projected scale define an Oort boundary or support a hydrogen/Solar-System identity?",
+      "scope": ""
+    },
+    {
+      "id": "ZT-UK-ZERO-LOCAL-ORBIT-L1-HYDROGEN-CLOCK-001",
+      "title": "Zero-origin orbit-owned L1 closure to hydrogen-clock operational time",
+      "question": "Can a target-independent orbit-frame rate and bound L1 recurrence be propagated through hydrogen current/coupling to the operational clock readout?",
+      "scope": "The time branch shares upstream orbit-frame/L1 information with the alpha branch, so their successes are not automatically independent evidence."
+    },
+    {
+      "id": "ZT-UK-MATERIAL-KNOT-BLIND-ALPHA-137-001",
+      "title": "Material-knot / Local / Zero / H1 target-blind R_ZT=137 route",
+      "question": "What did the completed eight-bridge audit establish and at what ceiling?",
+      "scope": "The material-knot route is distinct from the empirical-ionization reconstruction; common terminal notation does not merge lineages."
+    },
+    {
+      "id": "ZT-UK-TIME-SINK-PROJECTION-001",
+      "title": "Time-Sink history, parameterization recovery, and CURRENT standard-SR redirect",
+      "question": "What scientifically useful Time-Sink algebra/history is preserved after the non-SR clock interpretation is superseded, and what owner-specific ruler/readout question remains open?",
+      "scope": "No independent Time-Sink evidence claim. The algebra is provenance-preserved; the only live response question requires a preregistered owner-specific discriminator under standard SR."
+    }
+  ]
+}
