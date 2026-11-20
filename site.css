@@ -38,7 +38,7 @@ p { margin: 0 0 1rem; max-width: 71ch }
 .phase-study span:nth-child(2) { transform: rotate(35deg); border-color: #e0bf90 }
 .phase-study span:nth-child(3) { transform: rotate(90deg); inset: 22% 16%; opacity: .5 }
 .phase-study i { position: absolute; inset: calc(50% - 4px); border-radius: 50%; background: #e6efc3; box-shadow: 0 0 2rem .7rem #b1efd05e }
-.collection, .result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem }
+.result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem }
 .collection { padding-block: 2.5rem }
 .collection article, .result { padding: clamp(1rem, 3vw, 1.7rem); border: 1px solid var(--line); background: var(--panel); border-radius: .45rem }
 .footer { border-top: 1px solid var(--line); padding-block: 1.5rem }
