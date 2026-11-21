@@ -3,86 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The Zero Theory Research Program by S. M. H. Emamifar. Read recent papers, explore the Living Research Atlas, or open the machine-readable index.">
   <meta name="color-scheme" content="light dark">
+  <meta name="description" content="The Zero Theory Research Program by S. M. H. Emamifar. Read recent papers, explore the Living Research Atlas, and access the machine-readable research index.">
   <title>Zero Theory Research Program | IRCBHC</title>
   <link rel="canonical" href="https://ircbhc.github.io/">
   <link rel="alternate" type="text/plain" title="Machine-readable research index" href="/ai/llms.txt">
   <style>
     :root {
       color-scheme: light dark;
-      --bg: #f8faf8;
-      --ink: #192624;
+      --background: #f8faf8;
+      --text: #192624;
       --muted: #495c57;
       --accent: #146248;
-      --line: #cbd8d2;
-      --panel: #eef4f0;
+      --border: #cbd8d2;
+      --surface: #eef4f0;
     }
-
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #111a1e;
-        --ink: #eef4ee;
+        --background: #111a1e;
+        --text: #eef4ee;
         --muted: #b7c9c5;
         --accent: #b1efd0;
-        --line: #3e565a;
-        --panel: #19282b;
+        --border: #3e565a;
+        --surface: #19282b;
       }
     }
-
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font: 1rem/1.65 system-ui, sans-serif;
-    }
+    body { margin: 0; background: var(--background); color: var(--text); font: 1rem/1.65 system-ui, sans-serif; }
     a { color: var(--accent); text-underline-offset: .22em; }
     a:focus-visible { outline: 2px solid var(--accent); outline-offset: .25rem; }
-    p, ul, blockquote, figure { margin: 0; }
+    h1, h2, h3, p, ul, figure, blockquote { margin: 0; }
     .wrap { width: min(65rem, calc(100% - 2.5rem)); margin-inline: auto; }
-    .bar, nav, footer { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.4rem; }
+    header { border-bottom: 1px solid var(--border); }
+    .bar, nav, .hero-title, footer { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.4rem; }
     .bar { justify-content: space-between; padding-block: 1rem; }
-    .wordmark { color: var(--ink); font-weight: 700; letter-spacing: .12em; text-decoration: none; }
-    header { border-bottom: 1px solid var(--line); }
+    .wordmark { color: var(--text); font-weight: 700; letter-spacing: .12em; text-decoration: none; }
     .hero { padding-block: clamp(2.75rem, 8vw, 6rem) 2.25rem; }
     h1, h2, h3, blockquote { font-family: Georgia, "Times New Roman", serif; }
-    h1, h2, h3 { margin: 0; line-height: 1.16; }
-    h1 { font-size: clamp(3.2rem, 10vw, 6rem); font-weight: 400; letter-spacing: -.055em; }
-    h2 { font-size: clamp(1.8rem, 4vw, 2.45rem); font-weight: 400; }
+    h1, h2, h3 { line-height: 1.18; }
+    h1 { font-size: clamp(3rem, 9vw, 6rem); font-weight: 400; letter-spacing: -.055em; }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 400; }
     h3 { font-size: clamp(1.15rem, 2.5vw, 1.4rem); }
-    h3 a { color: var(--ink); }
-    .lede { max-width: 58ch; margin-top: 1rem; font-size: 1.13rem; }
-    .byline, .meta, figcaption, footer { color: var(--muted); font-size: .92rem; }
-    .byline { margin-top: .65rem; }
-    .machine {
+    h3 a { color: var(--text); }
+    .machine-link {
       display: inline-block;
       max-width: 100%;
-      margin-top: 1.5rem;
-      padding: .65rem .9rem;
-      border: 1px solid var(--line);
+      padding: .55rem .8rem;
+      border: 1px solid var(--border);
       border-radius: .35rem;
-      background: var(--panel);
+      background: var(--surface);
+      font-size: .95rem;
       font-weight: 650;
       overflow-wrap: anywhere;
     }
-    .publications { margin: 1rem 0 2.25rem; }
-    .papers { margin-top: .9rem; padding: 0; list-style: none; }
-    .papers li { padding-block: 1rem; border-top: 1px solid var(--line); }
-    .papers li:last-child { border-bottom: 1px solid var(--line); }
-    .meta { margin-top: .3rem; }
-    .atlas { padding: 1.25rem; background: var(--panel); border-radius: .35rem; }
+    .lede { max-width: 60ch; margin-top: 1rem; font-size: 1.13rem; }
+    .byline, .metadata, figcaption, footer { color: var(--muted); font-size: .94rem; }
+    .byline { margin-top: .75rem; }
+    .publications { margin-block: 1rem 2.25rem; }
+    .papers { margin-top: 1rem; padding: 0; list-style: none; }
+    .papers li { padding-block: 1rem; border-top: 1px solid var(--border); }
+    .papers li:last-child { border-bottom: 1px solid var(--border); }
+    .metadata { margin-top: .35rem; }
+    .atlas { padding: 1.25rem; border-radius: .35rem; background: var(--surface); }
     .atlas p { margin-top: .5rem; }
-    figure { margin-block: 2.25rem; padding-inline-start: 1rem; border-inline-start: 2px solid var(--line); }
-    blockquote { max-width: 55ch; font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
-    figcaption { margin-top: .5rem; }
-    footer { padding-block: 1.1rem 1.5rem; border-top: 1px solid var(--line); }
+    .chapter-quote { margin-block: 2.5rem; padding-inline-start: 1.15rem; border-inline-start: 2px solid var(--border); }
+    blockquote { max-width: 58ch; font-size: clamp(1.12rem, 2.4vw, 1.45rem); font-style: italic; line-height: 1.55; }
+    figcaption { margin-top: .75rem; }
+    footer { padding-block: 1rem 1.5rem; border-top: 1px solid var(--border); }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap bar">
-      <a class="wordmark" href="./">IRCBHC</a>
+      <a class="wordmark" href="/">IRCBHC</a>
       <nav aria-label="Main navigation">
         <a href="#publications">Publications</a>
         <a href="/atlas.html">Atlas</a>
@@ -91,50 +84,52 @@
       </nav>
     </div>
   </header>
-
   <main class="wrap">
     <section class="hero" aria-labelledby="site-title">
-      <h1 id="site-title">Zero Theory</h1>
+      <div class="hero-title">
+        <h1 id="site-title">Zero Theory</h1>
+        <a class="machine-link" href="/ai/llms.txt">For Machine-Readable Access (LLMs), visit <code>/ai/llms.txt</code></a>
+      </div>
       <p class="lede">A research program exploring wave phase, cyclic closure, and how models of the electron and hydrogen connect to what an observer can measure.</p>
-      <p class="byline">An Independent Research Program by S. M. H. Emamifar</p>
-      <a class="machine" href="/ai/llms.txt">For Machine-Readable Access (LLMs), visit <code>/ai/llms.txt</code></a>
+      <p class="byline">
+        An Independent Research Program by S. M. H. Emamifar
+        · <a rel="me" href="https://orcid.org/0009-0007-6257-0163">ORCID 0009-0007-6257-0163</a>
+      </p>
     </section>
-
     <section class="publications" aria-labelledby="publications">
       <h2 id="publications">Recent publications</h2>
       <ul class="papers">
         <li>
           <h3><a href="https://doi.org/10.5281/zenodo.22833730">A Structure-Dependent Route to Cosmic Acceleration in Zero Theory</a></h3>
-          <p class="meta">Dark Energy v2.1 · Zenodo</p>
+          <p class="metadata">Dark Energy v2.1 · Zenodo</p>
         </li>
         <li>
           <h3><a href="https://doi.org/10.5281/zenodo.22823093">Time-Sink, Hydrogen Clocks, and Apparent Dark Matter</a></h3>
-          <p class="meta">Dark Matter v1.0 · Zenodo</p>
+          <p class="metadata">Dark Matter v1.0 · Zenodo</p>
         </li>
         <li>
-          <!-- No public record was verified for v0.5. Link the title when its record is available. -->
           <h3>From Primordial Electron–Positron Pairs to Compact Seeds and Baryonic Matter</h3>
-          <p class="meta">Unified Cosmogenesis v0.5 · Author-review draft</p>
+          <p class="metadata">
+            Unified Cosmogenesis · Author-review draft · DOI unverified
+            · <a href="https://zenodo.org/search?q=creators.name%3AEmamifar">Browse the author’s publications on Zenodo</a>
+          </p>
         </li>
       </ul>
     </section>
-
     <section class="atlas" aria-labelledby="atlas-title">
       <h2 id="atlas-title"><a href="/atlas.html">Living Research Atlas</a></h2>
       <p>Browse conditional results and their assumptions by topic or record ID.</p>
       <p><a href="https://zenodo.org/records/24383891">Full offline edition and validation on Zenodo</a></p>
     </section>
-
-    <figure>
+    <figure class="chapter-quote">
       <blockquote>
         <p>“Numerical cancellation does not mean the absence of the terms being added. If the whole appears as zero while its contributions remain distinct, then something is already present in the model.”</p>
       </blockquote>
-      <figcaption>Chapter One, <cite>Existence and Nothingness</cite></figcaption>
+      <figcaption>— <cite>Zero Theory: Existence and Nothingness</cite> (Chapter One)</figcaption>
     </figure>
   </main>
-
   <footer class="wrap">
-    <a rel="me" href="https://orcid.org/0009-0007-6257-0163">ORCID 0009-0007-6257-0163</a>
+    <span>Zero Theory Research Program · IRCBHC</span>
     <a href="https://github.com/IRCBHC/ircbhc.github.io">Site source on GitHub</a>
   </footer>
 </body>
